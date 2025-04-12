@@ -1,67 +1,79 @@
 # Payment Fraud Detection System
 
-This project implements a machine learning-based payment fraud detection system using various algorithms and techniques.
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit%20Learn%20%7C%20XGBoost%20%7C%20LightGBM%20%7C%20CatBoost-orange.svg)](https://scikit-learn.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Project Structure
+A comprehensive machine learning project for detecting fraudulent payment transactions using multiple algorithms and advanced data analysis techniques.
+
+## 🚀 Features
+
+- **Dataset Generation**: 50,000 synthetic transactions with 10 relevant features
+- **Multiple ML Models**: Implementation of 4 powerful algorithms
+  - Random Forest
+  - XGBoost
+  - LightGBM
+  - CatBoost
+- **Advanced Visualizations**: 8 different types of data visualizations
+- **Class Imbalance Handling**: SMOTE technique implementation
+- **Comprehensive Evaluation**: Multiple performance metrics
+
+## 📊 Project Structure
 
 ```
 fraud_detection/
 ├── data/               # Dataset directory
-├── docs/              # Documentation
+├── docs/              # Documentation and visualizations
 ├── models/            # Trained models
 ├── notebooks/         # Jupyter notebooks
 ├── src/              # Source code
 └── tests/            # Unit tests
 ```
 
-## Features
+## 🛠️ Technical Stack
 
-- Dataset with 50,000 transactions and 10 features
-- 8 different types of visualizations for data analysis
-- Implementation of 4 different ML models:
-  - Random Forest
+- **Languages**: Python 3.x
+- **ML Libraries**: 
+  - Scikit-learn
   - XGBoost
   - LightGBM
   - CatBoost
-- Comprehensive documentation and analysis
+- **Data Processing**: 
+  - Pandas
+  - NumPy
+- **Visualization**: 
+  - Matplotlib
+  - Seaborn
+  - Plotly
+- **Development**: 
+  - Jupyter Notebooks
+  - Git
 
-## Setup
+## 🚀 Getting Started
 
-1. Create a virtual environment:
+1. **Clone the repository**
+```bash
+git clone https://github.com/Arindam-GitH/Payment-Fraud-Detection-.git
+cd Payment-Fraud-Detection-
+```
+
+2. **Set up virtual environment**
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-2. Install dependencies:
+3. **Install dependencies**
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the analysis:
+4. **Run the analysis**
 ```bash
 python src/main.py
 ```
 
-## Data Visualization
-
-The project includes the following visualizations:
-1. Transaction Amount Distribution
-2. Fraud vs Non-Fraud Distribution
-3. Correlation Heatmap
-4. Feature Importance Plot
-5. ROC Curves
-6. Confusion Matrices
-7. Transaction Time Analysis
-8. Geographic Distribution of Fraud
-
-## Models
-
-The following machine learning models are implemented:
-1. Random Forest Classifier
-2. XGBoost Classifier
-3. LightGBM Classifier
-4. CatBoost Classifier
+## 📈 Model Performance
 
 Each model is evaluated using:
 - Accuracy
@@ -70,10 +82,30 @@ Each model is evaluated using:
 - F1-Score
 - ROC-AUC Score
 
-## Results
+## 📊 Visualizations
 
-Detailed model performance metrics and comparisons can be found in the notebooks directory.
+The project includes 8 different types of visualizations:
+1. Transaction Amount Distribution
+2. Fraud vs Non-Fraud Distribution
+3. Correlation Heatmap
+4. Transaction Time Analysis
+5. Amount vs Fraud Box Plot
+6. Customer Age Distribution
+7. Device Type Distribution
+8. Geographic Distribution
 
-## Contributing
+## 🤝 Contributing
 
-Feel free to submit issues and enhancement requests. 
+Feel free to submit issues and enhancement requests!
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+**Arindam Guha**
+- GitHub: [@Arindam-GitH](https://github.com/Arindam-GitH)
+
+---
+⭐️ From [Arindam-GitH](https://github.com/Arindam-GitH) 
