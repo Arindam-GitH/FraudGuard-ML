@@ -1,10 +1,10 @@
-# Payment Fraud Detection System
+# FraudGuard ML: Advanced Payment Fraud Detection System
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit%20Learn%20%7C%20XGBoost%20%7C%20LightGBM%20%7C%20CatBoost-orange.svg)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-A comprehensive machine learning project for detecting fraudulent payment transactions. Features 50,000 synthetic transactions, 4 ML models (Random Forest, XGBoost, LightGBM, CatBoost), 8 data visualizations, and SMOTE for handling class imbalance. Perfect for financial institutions and data scientists working on fraud detection systems.
+A sophisticated machine learning-based payment fraud detection system that leverages multiple algorithms (Random Forest, XGBoost, LightGBM, CatBoost) to identify suspicious transactions. Features 50,000 synthetic transactions, 8 data visualizations, and SMOTE for handling class imbalance. Perfect for financial institutions and data scientists working on fraud detection systems.
 
 ## 🚀 Features
 
