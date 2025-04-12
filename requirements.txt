@@ -9,4 +9,18 @@ lightgbm==4.0.0
 catboost==1.2.2
 imbalanced-learn==0.11.0
 jupyter==1.0.0
-notebook==7.0.4 
+notebook==7.0.4
+
+## Use Case
+This project demonstrates how to build a robust fraud detection system that can:
+- Identify suspicious transactions in real-time
+- Handle imbalanced datasets effectively
+- Provide interpretable results through visualizations
+- Compare multiple ML models for optimal performance
+
+Perfect for:
+- Financial institutions
+- E-commerce platforms
+- Payment processors
+- Data scientists working on fraud detection
+- ML practitioners interested in classification problems 
